@@ -44,7 +44,7 @@ Neste desafio foi criado uma aplicação para salvar usuários do GitHub. Temas 
 </p>
 
 ## ✅ Resultado
-[Acesse o resultado finalizado do GitHub Favorites(V2), online](https://devbonatto.github.io/GitHubFavorites/)
+[Acesse o resultado finalizado do GitHub Favorites(V2), online](https://devbonatto.github.io/GitHubFavoritesV2/)
 
 ## 🔖 Layout
 Eu modifiquei o layout utilizado para o projeto ser responsivo. [Clique aqui](https://www.figma.com/file/Hd75XkNzNuLd8QRB1GRkGc/Desafios-Explorer-GitFav-Copy-Copy?fuid=1369823793362288511) para ver o layout.
