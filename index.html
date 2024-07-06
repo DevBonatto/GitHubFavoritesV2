@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GitHube Favorites V2</title>
+  <link rel="shortcut icon" href="./assets/star.svg" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="./src/main.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  link:
+</head>
+<body>
+  <div id="app">
+    <header>
+      <img src="./assets/Gitfav.svg" alt="">
+      <div class="input">
+        <input type="text" placeholder="Digite o usuário">
+        <button id="favorite"></button>
+      </div>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Usuário</th>
+            <th>Repositórios</th>
+            <th>Followers</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <td class="user">
+            <img src="https://github.com/DevBonatto.png" alt="">
+            <a href="https://github.com/DevBonatto" target="_blank">
+              <p>Lucca Bonatto</p>
+              <span>/DevBonatto</span>
+            </a>
+          </td>
+          <td class="repositories">
+            <p>2</p>
+          </td>
+          <td class="followers">
+            <p>2</p>
+          </td>
+          <td>
+            <button class="remove">Remover</button>
+          </td>
+        </tbody>
+      </table>
+      <div class="nonActiveApp">
+        <img src="./assets/Estrela.svg" alt="">
+        <h1>Nenhum favorito ainda</h1>
+      </div>  
+    </main>
+  </div>
+</body>
+</html> 
