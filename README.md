@@ -51,4 +51,4 @@ Neste desafio foi criado uma aplicação para salvar usuários do GitHub. Temas 
 Eu modifiquei o layout utilizado para o projeto ser responsivo. [Clique aqui](https://www.figma.com/file/Hd75XkNzNuLd8QRB1GRkGc/Desafios-Explorer-GitFav-Copy-Copy?fuid=1369823793362288511) para ver o layout.
 
 ## 📄 Documentação Lógica
-[CLIQUE AQUI](https://drive.google.com/file/d/1Uu1746ZN2ssnxU9cUrM_qvXlGitPwYuN/view?usp=sharing) para ver a documentação lógica do projeto.
+[CLIQUE AQUI](https://drive.google.com/file/d/16FyWsdZxuRIBm1GgePuH-izagoa5XLMf/view?usp=sharing) para ver a documentação lógica do projeto.
