@@ -1,4 +1,4 @@
-import { gitHubUser } from './gitHubeUser.js'
+import { gitHubUser } from './gitHubUser.js'
 
 class Favorites {
   constructor(root) {
