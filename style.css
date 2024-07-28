@@ -204,7 +204,7 @@ main .default.activeApp {
     border-radius: 50%;
   }
 
-  main .nonActiveApp {  
+  main .default {  
     width: 60rem;
   }
 }
