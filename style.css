@@ -146,7 +146,7 @@ main table tbody tr td button {
   cursor: pointer;
 }
 
-main .nonActiveApp {
+main .default {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,12 +162,12 @@ main .nonActiveApp {
   border-radius: 0 0 1rem 1rem;
 }
 
-main .nonActiveApp img {
+main .default img {
   width: 25%;
   margin-bottom: .8rem;
 }
 
-main .activeApp {
+main .default.activeApp {
   display: none;
 }
 

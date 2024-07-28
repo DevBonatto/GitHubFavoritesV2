@@ -4,7 +4,7 @@ class Favorites {
   constructor(root) {
     this.root = document.querySelector(root)
     this.tbody = this.root.querySelector('table tbody')
-    this.nonActiveApp = this.root.querySelector('main .nonActiveApp')
+    this.defaultApp = this.root.querySelector('main .default')
     this.load()
     this.loadDocument()
   }
@@ -12,9 +12,7 @@ class Favorites {
   loadDocument() {
     document.addEventListener('DOMContentLoaded', () => {
       if(localStorage.getItem('activeApp') === 'true') {
-        this.nonActiveApp.classList.add('activeApp')
-      }else {
-        this.nonActiveApp.classList.add('nonActiveApp')
+        this.defaultApp.classList.add('activeApp')
       }
     })
   }
@@ -32,14 +30,13 @@ class Favorites {
     localStorage.setItem('@githut-favorites:', JSON.stringify(this.users))
   }
 
-  setActiveApp() {
-    this.nonActiveApp.classList.add('activeApp')
-    localStorage.setItem('activeApp', 'true');
-  }
-
-  setNonActiveApp() {
-    this.nonActiveApp.classList.add('nonActiveApp')
-    localStorage.setItem('activeApp', 'false');
+  toggleActiveApp() {
+    const isActive = this.defaultApp.classList.toggle('activeApp')
+    if(isActive){
+      localStorage.setItem('activeApp', 'true')
+    }else {
+      localStorage.setItem('activeApp', 'false')
+    }
   }
 
   async add(username) {
@@ -56,7 +53,7 @@ class Favorites {
 
       this.users = [user, ...this.users]
       this.update()
-      this.setActiveApp()
+      this.toggleActiveApp()
       this.save()
     } catch (error) {
       alert(error.message)
@@ -70,7 +67,7 @@ class Favorites {
     this.save()
 
     if(this.users.length === 0) {
-      this.setNonActiveApp()
+      this.toggleActiveApp()
       this.refreshPage()
     }
   }
