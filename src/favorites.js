@@ -53,7 +53,9 @@ class Favorites {
 
       this.users = [user, ...this.users]
       this.update()
-      this.toggleActiveApp()
+      if(this.users.length === 1) {
+        this.toggleActiveApp()
+      }
       this.save()
     } catch (error) {
       alert(error.message)
