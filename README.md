@@ -26,7 +26,6 @@ Neste desafio foi criado uma aplicação para salvar usuários do GitHub. Temas 
 - Async Functions
 - API
 - JSON
-- High Order Functions
 - Fetch
 - Promisses
 - Imutabilidade
@@ -36,7 +35,8 @@ Neste desafio foi criado uma aplicação para salvar usuários do GitHub. Temas 
 - Callback Functions
 - ESModules
 - Clean Code
-- States
+- Classes
+- Métodos
 - Responsividade
   
 ## 📝 Proposta
